@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/ecommerce-react" element={<Navigation />}>
+        <Route path="/" element={<Navigation />}>
           <Route index element={<Home />} />
           <Route path="addProd" element={<AddProd />} />
           <Route path="cart" element={<Cart />} />
